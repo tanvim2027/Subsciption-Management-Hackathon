@@ -1,0 +1,428 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+ }
+body{
+    font-size:20px;
+    overflow-x: hidden;
+    color: #fff;
+    font-family: 'Flamenco', cursive;
+   
+}
+
+
+ header{
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('bgh1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:100vh;
+
+ }
+
+ .clearfix:after{
+   
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+ }
+
+ .row{
+    max-width: 1180px;
+    margin: 0 auto;
+ }
+
+ .main-nav{
+    float: right;
+    margin-top: 60px;
+
+ }
+
+ .main-nav li{
+ 
+ display: inline-block;
+ list-style: none;
+ margin-left: 40px;
+}
+ .main-nav li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 100;
+    padding: 5px 0px;
+    
+ }
+.main-nav li a:hover{
+    border-bottom: 2px solid #d9b38c;
+}
+
+.main-cont{
+    width: 1180px;
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+.hi{
+    color: black;
+}
+
+.cont{
+    width: 1180px;
+    position:absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+
+h1{
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0,2;
+}
+
+.btn-full{
+     background-color: transparent;
+     color: #d9b38c;
+     margin-right: 15px;
+     border: 1px solid #d9b38c;
+
+}
+
+.btn-full:hover{
+    background-color: #fff;
+}
+.btn-nav{
+background-color: transparent;
+color: #fff;
+border: 1px solid #fff; 
+
+}
+
+.btn-nav:hover{
+    background-color: #d9b38c;  
+}
+
+.color{
+    animation: colorchange 1s infinite;
+}
+
+@keyframes colorchange{
+    0%{color:seagreen;}
+    25%{color:#d9b38c;}
+    50%{color: white}
+    100%{color: #d9b38c}
+
+
+}
+@media only screen and (max-width: 1180px){
+    .main-cont{
+width:100%;
+padding:0 2%;
+
+    }
+}
+@media only screen and (max-width: 998px){
+    h1{
+        font-size: 200%;
+    }
+
+@media only screen and (max-width: 768px){
+    h1{
+    
+        font-size:180% ;
+        
+    }
+    .main-nav{
+        display: none;
+    }
+
+
+
+
+    /*    footer    */
+footer{
+    padding: 35px 0;
+    overflow: hidden;
+}
+
+footer .footer_logo{
+    float: left;
+}
+
+footer .rights p{
+    float: left;
+    color: #838181;
+    font-family: "raleway-regular";
+    font-size: 13px;
+    margin: 5px 0 0 40px; 
+}
+
+footer .rights p a{
+    color: #777;
+    font-family: "raleway-semibold";
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer nav ul{
+    float: right;
+    overflow: hidden;
+    list-style: none;
+    margin-top: 5px; 
+}
+
+footer nav ul li{
+    float: left;
+    margin-left: 25px;
+}
+
+footer nav ul li a{
+    color: #838181;
+    font-family: "raleway-regular";
+    font-size: 13px;
+    text-decoration: none;
+
+    transition:all .2s linear;
+    -webkit-transition:all .2s linear;
+    -moz-transition:all .2s linear;
+    -o-transition:all .2s linear;
+}
+
+footer nav ul li a:hover{
+    color: #616161;
+}
+
+
+    
+.main-nav li{
+    float: left;
+    display: block;
+ margin-top: 10px;
+}
+.bg_1{
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('67.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.log{
+    width: 320px;
+    height: 520px;
+    background-color: #fff;
+    color: #000;
+     top: 50%;
+     left: 50%;
+     position: absolute;
+     transform: translate(-50%,-50%);
+     box-sizing:border-box;
+     text-align: center;
+     padding:   40px 30px;
+     border-color: black;
+     background:rgba(243, 239, 239, 0);
+
+
+    }
+.logg
+{    padding: 0;
+    margin:0;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.log p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.log input{
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #fff;
+
+}
+.log input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:transparent;
+    outline: none;
+    height:  40px;  
+    font-size: 16px;
+}   
+
+.log input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #fff;     
+    background:transparent;
+    outline: none;
+    height:  40px;  
+    font-size: 16px;
+}
+
+.log p{
+    color: #fff;
+}   
+
+
+
+.log input[type="submit"]
+{
+    border:none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    
+
+
+}
+
+
+
+.log input[type="submit"]:hover{
+    cursor: pointer;
+    background:#fff;
+    color: #000; 
+}
+
+.log input[type="placeholder"]{
+    color: #fff;
+}
+.logg input a{
+    text-decoration: none;
+    font-size: 7px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.logg input a:hover{
+    color:#fff;
+
+}
+ 
+.li{
+font-size: 30px;
+font-weight: bolder;
+color: #fff;
+}
+.sign {
+    width: 320px;
+    height: 620px;
+    background-color: #fff;
+    color: #fff;
+     top: 50%;
+     left: 50%;
+     position: absolute;
+     transform: translate(-50%,-50%);
+     box-sizing:border-box;
+     text-align: center;
+     padding: 40px 30px;
+     text-decoration: none;
+    background:rgba(243, 239, 239, 0);
+
+    }
+
+.sign input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:transparent;
+    outline: none;
+    height:  40px;  
+    font-size: 16px;
+    color: #fff;
+}
+
+.log input[type="text"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:transparent;
+    outline: none;
+    height:  40px;  
+    font-size: 16px;
+    color: #fff;
+}
+
+.sign input a{
+    text-decoration: none;
+    font-size: 7px;
+    line-height: 20px;
+    color: #fff;
+}
+
+.sign input a:hover{
+    color:#fff;
+
+}
+
+.sign input[type="submit"]:hover{
+    cursor: pointer;
+    background:#ffc107;
+    color: #000; 
+}
+.sign input[type="submit"]
+{
+    border:none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    width: 80px;
+   
+   }
+
+.sign input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:transparent;
+    outline: none;
+    height:  40px;  
+    font-size: 16px;
+}
+
+.sign input[type="number"]
+{
+    border: none;
+    border-bottom: 1px solid #000;
+    background:transparent;
+    outline: none;
+    height:  40px;  
+    font-size: 16px;
+}
+h5{
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+}
